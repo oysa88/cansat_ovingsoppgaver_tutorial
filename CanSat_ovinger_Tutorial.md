@@ -478,6 +478,31 @@ function høyde () {
 ```
 
 
+## Del 7.2
+
+### Oppgave 7: Vise høyden til CanSat på OLED-skjerm
+
+Kopier koden vi har brukt før for å skrive til OLED-skjerm.
+
+I den første ruta, skriv "høyde: ". I den andre ruta, sette inn ``||variables: h||``. I den tredje, skriv " m". Skriv til linje 5.
+
+
+```blocks
+function høyde () {
+    h = høydeberegning.barometricHeight(
+    101325,
+    101325,
+    288,
+    0.0065,
+    0,
+    287,
+    9.81
+    )
+    kitronik_VIEW128x64.show("Høyde: " + h + " m", 5)
+}
+```
+
+
 ```package
 pxt-kitronik-128x64display=github:kitronikltd/pxt-kitronik-128x64display
 BMP280=github:microbit-makecode-packages/BME280
