@@ -462,11 +462,14 @@ Hvor:
 
 ### Oppgave 7: Lage formelen for å beregne høyden til CanSat
 
+Vi skal lage en ny funksjon: ``||functions: høyde||``. Plasser den eneste blokken fra blokken fra ``||barometric-height: Høydeberegning||``.
+
+Plasser ``||variabel: trykk||`` inn i P. Sjekk også at alle verdiene i blokken er riktige!
 
 ```blocks
 function høyde () {
     h = høydeberegning.barometricHeight(
-    101325,
+    trykk,
     101325,
     288,
     0.0065,
