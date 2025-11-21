@@ -1,5 +1,6 @@
 {
     "name": "CanSat_ovingsoppgaver_Tutorial",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
