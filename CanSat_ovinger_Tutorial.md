@@ -1,6 +1,7 @@
 # CanSat Øvinger Tutorial
 
 ### @diffs true
+### @unifiedToolbox true
 
 ## Del 1: @unplugged
 
